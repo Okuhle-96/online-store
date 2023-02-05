@@ -1,0 +1,19 @@
+.owl-nav {
+     right: 0;
+     bottom: 0;
+     position: absolute;
+     background: #000000;
+}
+
+ /* MEDIA QUERRY FOR SCREENS FROM 0 - 600PX */
+@media screen and (max-width: 600px) {
+     .owl-carousel {
+          margin-left: auto;
+          width: calc(100% - 90px);
+     }
+
+     .owl-nav {
+          display: none;
+     }
+     
+}
